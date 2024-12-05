@@ -86,6 +86,27 @@ It creates an infinite loop that does nothing because the condition is always tr
 In a switch expression, the underscore (_) is used as the default pattern.
 It matches any value that hasn't been explicitly matched by the previous cases.
 
-10. What interface must an object implement to be enumerated over by using the foreach
-statement
+10. What interface must an object implement to be enumerated over by using the foreach statement
 An object must implement the IEnumerable interface (or the generic version IEnumerable<T>) to be enumerated over by using the foreach statement.
+
+"Arrays and Strings":
+1. When to use String vs. StringBuilder in C# ?
+String: 
+Use String when you need to create or manipulate strings that don't require frequent modifications. Since strings are immutable in C#, every modification creates a new string in memory, which can be inefficient if you perform many concatenations.
+
+StringBuilder: 
+Use StringBuilder when you need to modify a string frequently, such as in loops or when performing numerous concatenations. StringBuilder is mutable, meaning it can be modified without creating new instances, making it more memory-efficient for repeated changes.
+
+2. What is the base class for all arrays in C#?
+System.Array.
+
+3. How do you sort an array in C#?
+use the Array.Sort() method
+4. What property of an array object can be used to get the total number of elements in an array?
+The Length property of an array can be used to get the total number of elements in an array.
+
+5. Can you store multiple data types in System.Array?
+No, System.Array is a strongly-typed collection, meaning all elements in an array must be of the same type. 
+
+6. What¡¯s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+The key difference is that CopyTo() copies elements to an existing array, while Clone() creates a new array.
