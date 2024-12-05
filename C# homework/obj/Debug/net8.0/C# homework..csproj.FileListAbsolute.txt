@@ -1,0 +1,15 @@
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\bin\Debug\net8.0\C# homework..exe
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\bin\Debug\net8.0\C# homework..deps.json
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\bin\Debug\net8.0\C# homework..runtimeconfig.json
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\bin\Debug\net8.0\C# homework..dll
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\bin\Debug\net8.0\C# homework..pdb
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..AssemblyInfoInputs.cache
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..AssemblyInfo.cs
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..csproj.CoreCompileInputs.cache
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..sourcelink.json
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..dll
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\refint\C# homework..dll
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..pdb
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\C# homework..genruntimeconfig.cache
+C:\Users\qingy\OneDrive\文档\GitHub\Antra-daily-assignment\C# homework\obj\Debug\net8.0\ref\C# homework..dll

@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33469DC8-49C1-429D-AC73-CEFF1698CF3F}|C# homework..csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\c# homework\\exercise03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33469DC8-49C1-429D-AC73-CEFF1698CF3F}|C# homework..csproj|solutionrelative:exercise03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33469DC8-49C1-429D-AC73-CEFF1698CF3F}|C# homework..csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\c# homework\\programs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33469DC8-49C1-429D-AC73-CEFF1698CF3F}|C# homework..csproj|solutionrelative:programs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Programs.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Programs.cs",
+              "RelativeDocumentMoniker": "Programs.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Programs.cs",
+              "RelativeToolTip": "Programs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:52:49.534Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercise03.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Exercise03.cs",
+              "RelativeDocumentMoniker": "Exercise03.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Exercise03.cs*",
+              "RelativeToolTip": "Exercise03.cs*",
+              "ViewState": "AgIAALcAAAAAAAAAAAAWwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:48:17.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+"Test your Knowledge" section
+
+"Understanding Data Types"
+1.
+What type would you choose for the following ¡°numbers¡±?
+A person¡¯s telephone number -- string
+A person¡¯s height -- double
+A person¡¯s age -- int
+A person¡¯s gender (Male, Female, Prefer Not To Answer) --enum
+A person¡¯s salary --decimal
+A book¡¯s ISBN -- string
+A book¡¯s price -- decimal
+A book¡¯s shipping weight -- double
+A country¡¯s population -- long
+The number of stars in the universe -- Big int
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business) -- int
+
+2. What are the difference between value type and reference type variables? What is boxing and unboxing?
+1.Value type will hold the value while reference type will hold the memory address or reference for this value. 
+2. Value types are stored in stack memory while reference types are stored in heap memory. 
+3. Value type will not be collected by the garbage collector but reference type will be collected by the garbage collector. 
+4. The value type can be created by struct or enum while reference type will be created by class, interface, delegate or array. 
+5. Value type can not accept null values whereas reference type can accept null values. 
+
+Boxing: Conversion of the value type to the reference type/object type 
+Unboxing: Conversion of the reference type to the value type
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+Managed Resource:
+Resources managed by the .NET runtime (CLR), such as memory allocated for objects.Automatically handled by the Garbage Collector.
+Unmanaged Resource:
+Resources not managed by the CLR and require explicit handling.
+
+4. Whats the purpose of Garbage Collector in .NET?
+The Garbage Collector (GC) is responsible for:
+Automatically managing memory by reclaiming unused objects.
+Preventing memory leaks by deallocating memory for objects no longer referenced.
+Improving application performance by optimizing memory usage.
+Relieving developers from the need to manually free memory, thus reducing the risk of errors such as dangling pointers or double frees.
+
+"Controlling Flow and Converting Types"
+1. What happens when you divide an int variable by 0?
+It would throw System.DivideByZeroException
+
+2. What happens when you divide a double variable by 0?
+It does not throw an exception. Instead, it results in:
+Infinity if the value is positive.
+-Infinity if the value is negative.
+NaN (Not a Number) if you are dividing.
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+
+Overflowing an int variable results in a value that wraps around to the negative or positive limit of the int type.
+4. What is the difference between x = y++; and x = ++y;?
+x = y++ is called post-increment.The value of y is assigned to x first, then y is incremented.
+x = ++y is called pre-increment.The value of y is incremented first, then the new value of y is assigned to x.
+
+5. What is the difference between break, continue, and return when used inside a loop
+statement?
+break:
+Terminates the entire loop immediately and moves to the next statement after the loop.
+continue:
+Skips the current iteration of the loop and moves to the next iteration.
+return:
+Immediately exits the method where the loop is contained, returning control to the caller.
+
+6. What are the three parts of a for statement and which of them are required?
+Initialization (e.g., int i = 0)
+Condition (e.g., i < 10)
+Iteration (e.g., i++)
+All three parts are optional.
+
+7. What is the difference between the = and == operators?
+= is the assignment operator.
+It is used to assign a value to a variable.
+== is the equality operator.
+It is used to compare two values for equality.
+
+8. Does the following statement compile? for ( ; true; ) ;
+Yes, this statement compiles.
+It creates an infinite loop that does nothing because the condition is always true and there is no other part of statement.
+
+9. What does the underscore _ represent in a switch expression?
+In a switch expression, the underscore (_) is used as the default pattern.
+It matches any value that hasn't been explicitly matched by the previous cases.
+
+10. What interface must an object implement to be enumerated over by using the foreach
+statement
+An object must implement the IEnumerable interface (or the generic version IEnumerable<T>) to be enumerated over by using the foreach statement.
