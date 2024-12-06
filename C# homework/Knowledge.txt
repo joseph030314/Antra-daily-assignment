@@ -110,3 +110,59 @@ No, System.Array is a strongly-typed collection, meaning all elements in an arra
 
 6. What¡¯s the difference between the System.Array.CopyTo() and System.Array.Clone()?
 The key difference is that CopyTo() copies elements to an existing array, while Clone() creates a new array.
+
+"OOP" section:
+1. What are the six combinations of access modifier keywords and what do they do? 
+public: Accessible from any other class.
+private: Accessible only within the class it is declared in.
+protected: Accessible within the class and by derived classes.
+internal: Accessible within the same assembly.
+protected internal: Accessible within the same assembly or by derived classes.
+private protected: Accessible within the same class or by derived classes in the same assembly.
+
+2.What is the difference between the static, const, and readonly keywords when applied to a type member?
+static: Belongs to the type rather than an instance; shared among all instances.
+const: Compile-time constant; its value must be assigned at declaration and cannot change.
+readonly: Runtime constant; can be assigned at declaration or in the constructor
+
+3. What does a constructor do?
+A constructor initializes an object of a class. It is a special method with the same name as the class and no return type.
+4. Why is the partial keyword useful?
+The partial keyword allows a class, struct, or interface to be split across multiple files. This is helpful for separating auto-generated code and user-defined code.
+
+5. What is a tuple?
+A tuple is a data structure that holds multiple values, which can be of different types. 
+
+6. What does the C# record keyword do?
+The record keyword creates a reference type with built-in functionality for immutability and value-based equality.
+
+7. What does overloading and overriding mean?
+Overloading: Defining multiple methods with the same name but different parameters in the same class.
+Overriding: Providing a new implementation of a base class method in a derived class using the override keyword.
+
+8. What is the difference between a field and a property?
+Field: A variable that holds data.
+Property: Provides controlled access to fields with get and set accessors.
+
+9. How do you make a method parameter optional?
+We can assign a default value to the parameter
+
+10. What is an interface and how is it different from abstract class?
+Interface: Defines a contract with no implementation. Classes implementing it must provide implementations.
+Abstract Class: Can have both abstract methods (no implementation) and concrete methods (with implementation).
+
+11. What accessibility level are members of an interface?
+Members of an interface are public by default and cannot have other access modifiers.
+
+12. True: Polymorphism allows derived classes to provide different implementations of the same method.
+13. True: The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
+14. True: The new keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
+15. False: Abstract methods can be used in a normal (non-abstract) class. 
+16. True: Normal (non-abstract) methods can be used in an abstract class. 
+17. True: Derived classes can override methods that were virtual in the base class. 
+18. True: Derived classes can override methods that were abstract in the base class. 
+19. False: In a derived class, you can override a method that was neither virtual non abstract in the base class.
+20. False: A class that implements an interface does not have to provide an implementation for all of the members of the interface.
+21. True: A class that implements an interface is allowed to have other members that aren¡¯t defined in the interface.
+22. False: A class can have more than one base class.
+23. True: A class can implement more than one interface
