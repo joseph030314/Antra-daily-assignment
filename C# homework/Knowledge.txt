@@ -89,6 +89,8 @@ It matches any value that hasn't been explicitly matched by the previous cases.
 10. What interface must an object implement to be enumerated over by using the foreach statement
 An object must implement the IEnumerable interface (or the generic version IEnumerable<T>) to be enumerated over by using the foreach statement.
 
+
+
 "Arrays and Strings":
 1. When to use String vs. StringBuilder in C# ?
 String: 
@@ -110,6 +112,8 @@ No, System.Array is a strongly-typed collection, meaning all elements in an arra
 
 6. What¡¯s the difference between the System.Array.CopyTo() and System.Array.Clone()?
 The key difference is that CopyTo() copies elements to an existing array, while Clone() creates a new array.
+
+
 
 "OOP" section:
 1. What are the six combinations of access modifier keywords and what do they do? 
@@ -166,3 +170,33 @@ Members of an interface are public by default and cannot have other access modif
 21. True: A class that implements an interface is allowed to have other members that aren¡¯t defined in the interface.
 22. False: A class can have more than one base class.
 23. True: A class can implement more than one interface
+
+
+
+
+Generics:
+1. Describe the problem generics address.
+Generics address the problem of type safety and code reusability by allowing classes, methods, and interfaces to operate on a specified type without requiring the explicit declaration of data types.
+
+2. How would you create a list of strings, using the generic List class?
+Use List<>  like:
+List<string> stringList = new List<string>();
+
+3. How many generic type parameters does the Dictionary class have?
+The Dictionary class has two generic type parameters: one for the key and one for the value.
+
+4. False: When a generic class has multiple type parameters, they must all match.
+
+5. What method is used to add items to a List object?
+The Add method is used like : myList.Add("item");
+
+6. Name two methods that cause items to be removed from a List.
+Remove and RemoveAt
+
+7. How do you indicate that a class has a generic type parameter?
+By using angle brackets (<T>) after the class name.
+
+8. False: Generic classes can only have one generic type parameter.
+
+9. True: Generic type constraints limit what can be used for the generic type.
+10. True: Constraints let you use the methods of the thing you are constraining to

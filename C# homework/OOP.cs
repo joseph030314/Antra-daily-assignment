@@ -288,6 +288,7 @@ namespace OOPDemo
 
 
 //4. Color and Ball program
+/*
 using System;
 
 class Color
@@ -431,3 +432,4 @@ class Program
 
     }
 }
+*/

@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Arrays and Strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Arrays and Strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Byte Overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Byte Overflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Exercise03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exercise03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Generics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Generics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\HackerNames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HackerNames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\OOP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\02UnderstandingTypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02UnderstandingTypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Arrays and Strings.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Arrays and Strings.cs",
+              "RelativeDocumentMoniker": "Arrays and Strings.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Arrays and Strings.cs",
+              "RelativeToolTip": "Arrays and Strings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:51.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Byte Overflow.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Byte Overflow.cs",
+              "RelativeDocumentMoniker": "Byte Overflow.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Byte Overflow.cs",
+              "RelativeToolTip": "Byte Overflow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:50.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exercise03.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Exercise03.cs",
+              "RelativeDocumentMoniker": "Exercise03.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Exercise03.cs",
+              "RelativeToolTip": "Exercise03.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:47.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HackerNames.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\HackerNames.cs",
+              "RelativeDocumentMoniker": "HackerNames.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\HackerNames.cs",
+              "RelativeToolTip": "HackerNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:44.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OOP.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\OOP.cs",
+              "RelativeDocumentMoniker": "OOP.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\OOP.cs",
+              "RelativeToolTip": "OOP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:40.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "02UnderstandingTypes.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\02UnderstandingTypes.cs",
+              "RelativeDocumentMoniker": "02UnderstandingTypes.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\02UnderstandingTypes.cs",
+              "RelativeToolTip": "02UnderstandingTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:30:37.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Generics.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Generics.cs",
+              "RelativeDocumentMoniker": "Generics.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\C# homework\\Generics.cs",
+              "RelativeToolTip": "Generics.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAqwA8BAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:08:29.363Z",
+              "EditorCaption": ""
             }
           ]
         }
