@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life in Antra</title>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: separate;
+            border: 1px solid black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            table-layout: auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 20px;
+            position: relative;
+        }
+
+        .title-row td {
+            font-size: 24px;
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .beer {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .left-upper {
+            text-align: left;
+            vertical-align: top;
+            padding: 5px;
+        }
+
+        .right-upper {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+        .mid-upper {
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .mid-left {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            text-align: left;
+        }
+
+        .mid-bottom {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table aria-label="Life in Antra table">
+        <tr class="title-row">
+            <td colspan="4">Antra LIFE</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="left-upper">Google</td>
+            <td colspan="2"><span class="right-upper">GitHub</span></td>
+        </tr>
+        <tr>
+            <td colspan="1"><span class="mid-upper">FB</span></td>
+            <td colspan="1"><span class="mid-left">GMail</span></td>
+            <td colspan="1"><span class="mid-bottom">YouTube</span></td>
+            <td colspan="1"><span class="mid-left">2048</span></td>
+        </tr>
+        <tr>
+            <td colspan="1"><span class="bottom-right">Food</span></td>
+            <td colspan="2"><span class="bottom-left">Game</span></td>
+            <td colspan="1">
+                <table border="2">
+                    <tr>
+                        <td>Social Life</td>
+                    </tr>
+                    <tr>
+                        <td>Sleep</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="beer">Beer &gt;</td>
+            <td>WC</td>
+        </tr>
+    </table>
+</body>
+
+</html>

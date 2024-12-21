@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antra Life</title>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 60%;
+            margin: 10px auto;
+            border-collapse: separate;
+            border: 1px solid black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            color: blue;
+        }
+
+        .title-row td {
+            font-size: 24px;
+            color: blue;
+        }
+
+        button {
+            width: 100%;
+            /* Optional: Make the button stretch across its container */
+            height: auto;
+            /* Adjust height as needed */
+            padding: 20px;
+            /* Increase padding */
+            background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+            border: 0;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            color: blue;
+            box-sizing: border-box;
+            /* Ensures padding doesn't overflow container */
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <table aria-label="Life in Antra table">
+        <tr class="title-row">
+            <td colspan="4"><button onclick="window.open('https://www.antralife.com', '_blank')">Antra Life</a></td>
+        </tr>
+        <tr>
+            <td colspan=" 2"><button onclick="window.open('https://www.google.com', '_blank')">Google</button></td>
+            <td colspan="2"><button onclick="window.open('https://www.github.com', '_blank')">GitHub</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="window.open('https://www.facebook.com', '_blank')">Facebook</button></td>
+            <td><button onclick="window.open('https://mail.google.com', '_blank')">GMail</button></td>
+            <td><button onclick="window.open('https://www.youtube.com', '_blank')">YouTube</button></td>
+            <td><button onclick="window.open('https://play2048.co', '_blank')">2048</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="window.open('https://www.foodnetwork.com', '_blank')">Food</button></td>
+            <td colspan="2"><button onclick="window.open('https://store.steampowered.com', '_blank')">Game</button></td>
+            <td style="padding: 0;">
+                <table style="width: 80%; height: 100%;">
+                    <tr>
+                        <td><button onclick="window.open('https://www.instagram.com', '_blank')">Social Life</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="window.open('https://www.sleepfoundation.org', '_blank')">Sleep</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: right;">
+                <div style="display: inline-block; text-align: right;">
+                    <button onclick="window.open('https://www.beeradvocate.com', '_blank')">Beer &gt;&gt;&gt;</button>
+                </div>
+            </td>
+
+            <td><button onclick="window.open('https://www.wc.com', '_blank')">WC</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
