@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #1d3557;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu>li {
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .menu>li>a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu>li>a .arrow {
+            font-size: 0.8em;
+            margin-left: 5px;
+            transition: transform 0.3s;
+        }
+
+        .menu>li.active>a .arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 30px;
+            background-color: #457b9d;
+            list-style: none;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        .dropdown li {
+            margin: 5px 0;
+        }
+
+        .dropdown li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .dropdown li a[target] {
+            color: white;
+        }
+
+        .menu>li.active .dropdown {
+            display: block;
+        }
+
+        .menu>li:hover>a {
+            color: #a8dadc;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 5px;
+        }
+
+        .search button {
+            background-color: #457b9d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://antra.net">
+                <img src="logo.png" alt="Antra Logo">
+            </a>
+            <span>Antra</span>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="https://www.bbc.com/news">News</a>
+            </li>
+            <li>
+                <a href="#">About The University <span class="arrow">▼</span></a>
+                <ul class="dropdown">
+                    <li><a href="https://antra.com/#" target="_blank">History</a></li>
+                    <li><a href="https://antra.com/#" target="_blank">Mission</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Training Courses <span class="arrow">▼</span></a>
+                <ul class="dropdown">
+                    <li><a href="https://www.coursera.org/browse" target="_blank">Course 1</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates" target="_blank">Course 2</a></li>
+                </ul>
+            </li>
+            <li><a href="https://www.linkedin.com">For Companies</a></li>
+            <li><a href="https://www.reddit.com/r/education/">Forum</a></li>
+            <li><a href="https://www.google.com/maps">Contacts</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <script>
+        document.querySelectorAll('.menu > li > a').forEach(menuLink => {
+            menuLink.addEventListener('click', function (event) {
+                event.preventDefault();
+                const parentLi = this.parentElement;
+                const isActive = parentLi.classList.contains('active');
+
+                // Close all dropdowns
+                document.querySelectorAll('.menu > li').forEach(li => li.classList.remove('active'));
+
+                // Toggle the clicked dropdown
+                if (!isActive) {
+                    parentLi.classList.add('active');
+                }
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function (event) {
+            if (!event.target.closest('.menu')) {
+                document.querySelectorAll('.menu > li').forEach(li => li.classList.remove('active'));
+            }
+        });
+    </script>
+</body>
+
+</html>
