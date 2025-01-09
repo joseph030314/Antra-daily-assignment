@@ -1,0 +1,26 @@
+﻿@model ApplicationCore.Entities.MovieCardModel
+
+<div class="card">
+    <img class="card-img-top" src="@Model.PosterUrl" alt="@Model.Title">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">@Model.Overview</p>
+        <a href="@Url.Action("Details", "Movies", new { id = @Model.Id })" class="btn btn-primary">Details</a>
+    </div>
+</div>
+
+@*@model ApplicationCore.Entities.MovieCardModel
+
+<div class="col-md-3 col-sm-6 mb-4">
+    <div class="card h-100">
+        <a href="/Movies/Details/@Model.Id">
+            <img class="card-img-top" src="@Model.PosterUrl" alt="@Model.Title" />
+        </a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="/Movies/Details/@Model.Id">@Model.Title</a>
+            </h4>
+        </div>
+    </div>
+</div>
+*@

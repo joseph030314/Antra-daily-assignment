@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ApplicationCore.Entities.Movie>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var movie in Model)
+        {
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="/Movies/Details/@movie.Id">
+                        <img class="card-img-top" src="@movie.PosterUrl" alt="@movie.Title" />
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="/Movies/Details/@movie.Id">@movie.Title</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<br />
+<br />
+<br />

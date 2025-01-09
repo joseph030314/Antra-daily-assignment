@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ApplicationCore.Models.GenreModel>
+
+<select id="genreDropdown" class="form-control">
+    @foreach (var genre in Model)
+    {
+        <option value="@genre.Id">@genre.Name</option>
+    }
+</select>

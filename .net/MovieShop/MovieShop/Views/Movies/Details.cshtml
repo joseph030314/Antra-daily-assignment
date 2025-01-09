@@ -1,0 +1,165 @@
+﻿@model ApplicationCore.Entities.Movie
+
+@{
+    ViewData["Title"] = Model.Title;
+    var averageRating = Model.Reviews != null && Model.Reviews.Any()
+                       ? Model.Reviews.Average(r => r.Rating)
+                       : 0;
+}
+
+<div class="container">
+    <!-- First Row -->
+    <div class="row my-4 bg-image" style="background-image: url('@Model.BackdropUrl'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 400px;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+            
+        <!-- First Column: Movie Poster -->
+        <div class="col-md-3">
+            <img src="@Model.PosterUrl" class="img-fluid" alt="Movie Poster">
+        </div>
+
+        <!-- Second Column: Movie Details -->
+        <div class="col-md-6">
+            <h2 style="color:white">@Model.Title</h2>
+            <div>
+                @foreach (var genre in Model.MovieGenres)
+                {
+                    <span style="color:white" class="badge badge-primary">@genre.Genre.Name</span>
+                }
+            </div>
+            <br>
+            <p style="color:white">@Model.Overview</p>
+            <div>
+                <span class="badge badge-secondary">Rating: @averageRating.ToString("0.0")</span>
+            </div>
+        </div>
+
+        <!-- Third Column: Action Buttons -->
+        <div class="col-md-3">
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#buyModal">
+                Buy Movie
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#reviewModal">
+                Review
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row my-4">
+    
+        <div class="col-md-6">
+            <!-- Movie Facts -->
+            <div class="mb-4">
+                <h3>MOVIE FACTS</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-calendar"></i> Release Date</span>
+                        <span class="badge badge-pill badge-secondary">@Model.ReleaseDate.ToString("MMM dd, yyyy")</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-hourglass-half"></i> Run Time</span>
+                        <span class="badge badge-pill badge-secondary">@Model.RunTime m</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-money-bill"></i> Box Office</span>
+                        <span class="badge badge-pill badge-secondary">$@Model.Revenue.ToString("N")</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-dollar-sign"></i> Budget</span>
+                        <span class="badge badge-pill badge-secondary">$@Model.Budget.ToString("N")</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Trailers -->
+            <div>
+                <h3>TRAILERS</h3>
+                <ul class="list-group">
+                    @foreach (var trailer in Model.Trailers)
+                    {
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fab fa-youtube mr-2"></i>
+                            <a href="@trailer.TrailerUrl" style="color: inherit; text-decoration: none;">@trailer.Name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Second Column: Casts -->
+        <div class="col-md-6">
+            <h3>CAST</h3>
+            <ul class="list-group">
+                @foreach (var cast in Model.MovieCasts)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <a href="/Cast/Details/@cast.Cast.Id"><img src="@cast.Cast.ProfilePath" alt="@cast.Cast.Name" class="img-oval" style="margin-right: 10px;"></a>
+                            <a href="/Cast/Details/@cast.Cast.Id" style="color: inherit; text-decoration: none;">@cast.Cast.Name</a>
+                        </div>
+                        <span>@cast.Character</span>
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<!-- Buy Movie Modal -->
+<div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="buyModalLabel">Buy Movie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Price: $@Model.Price</p>
+                <button type="button" class="btn btn-primary">Purchase</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Review Modal -->
+<div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalLabel">Review Movie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="rating">Rating</label>
+                        <select class="form-control" id="rating">
+                            @for (int i = 1; i <= 10; i++)
+                            {
+                                <option value="@i">@i</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewText">Review</label>
+                        <textarea class="form-control" id="reviewText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />

@@ -1,0 +1,118 @@
+﻿@*@using ApplicationCore.Entities
+@model PaginatedResultSet<MovieCardModel>
+
+<div class="row">
+    @foreach (var movie in Model.Data)
+    {
+        <div class="col-md-3">
+            @await Html.PartialAsync("_MovieCard", movie)
+        </div>
+    }
+</div>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <ul class="pagination">
+            <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
+                <a class="page-link" asp-action="MoviesByGenre" asp-route-id="@Model.GenreId" asp-route-pageNumber="@(Model.PageNumber - 1)" asp-route-pageSize="@Model.PageSize">Previous</a>
+            </li>
+            <li class="page-item @(Model.HasNextPage ? "" : "disabled")">
+                <a class="page-link" asp-action="MoviesByGenre" asp-route-id="@Model.GenreId" asp-route-pageNumber="@(Model.PageNumber + 1)" asp-route-pageSize="@Model.PageSize">Next</a>
+            </li>
+        </ul>
+    </div>
+</div>*@
+
+
+
+
+
+
+@using ApplicationCore.Entities
+@model PaginatedResultSet<MovieCardModel>
+@{
+    var genreId = ViewBag.GenreId;
+}
+
+<div class="container">
+    <div class="row">
+        <h2> Genre: @ViewBag.GenreName</h2>
+        @foreach (var movie in Model.Data)
+        {
+            <div class="col-md-3">
+                <partial name="_MovieCard" model="movie" />
+            </div>
+        }
+    </div>
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    @if (Model.PageNumber > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="@(Model.PageNumber - 1)" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                    }
+
+                    @if (Model.TotalPages <= 5)
+                    {
+                        @for (var i = 1; i <= Model.TotalPages; i++)
+                        {
+                            <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                                <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="@i">@i</a>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="page-item @(Model.PageNumber == 1 ? "active" : "")">
+                            <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="1">1</a>
+                        </li>
+
+                        @if (Model.PageNumber > 3)
+                        {
+                            <li class="page-item"><span class="page-link">...</span></li>
+                        }
+
+                        @for (var i = Math.Max(2, Model.PageNumber - 1); i <= Math.Min(Model.TotalPages - 1, Model.PageNumber + 1); i++)
+                        {
+                            <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                                <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="@i">@i</a>
+                            </li>
+                        }
+
+                        @if (Model.PageNumber < Model.TotalPages - 2)
+                        {
+                            <li class="page-item"><span class="page-link">...</span></li>
+                        }
+
+                        <li class="page-item @(Model.PageNumber == Model.TotalPages ? "active" : "")">
+                            <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="@Model.TotalPages">@Model.TotalPages</a>
+                        </li>
+                    }
+
+                    @if (Model.PageNumber < Model.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Genre" asp-route-id="@ViewBag.GenreId" asp-route-pageNumber="@(Model.PageNumber + 1)" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+</div>
+<br />
+<br />
+<br />
+
