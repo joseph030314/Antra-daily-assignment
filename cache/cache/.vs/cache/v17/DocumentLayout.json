@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\api\\cache\\cache\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|solutionrelative:cache\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\api\\cache\\cache\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|solutionrelative:cache\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\api\\cache\\cache\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|solutionrelative:cache\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|c:\\users\\qingy\\onedrive\\\u6587\u6863\\github\\antra-daily-assignment\\api\\cache\\cache\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1F47868-685A-450A-B9CD-4451DDC0D7A3}|cache\\cache.csproj|solutionrelative:cache\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CacheController.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Controllers\\CacheController.cs",
+              "RelativeDocumentMoniker": "cache\\Controllers\\CacheController.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Controllers\\CacheController.cs",
+              "RelativeToolTip": "cache\\Controllers\\CacheController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:32:05.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Services\\CacheService.cs",
+              "RelativeDocumentMoniker": "cache\\Services\\CacheService.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Services\\CacheService.cs",
+              "RelativeToolTip": "cache\\Services\\CacheService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:31:34.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Program.cs",
+              "RelativeDocumentMoniker": "cache\\Program.cs",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\Program.cs",
+              "RelativeToolTip": "cache\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:30:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\appsettings.json",
+              "RelativeDocumentMoniker": "cache\\appsettings.json",
+              "ToolTip": "C:\\Users\\qingy\\OneDrive\\\u6587\u6863\\GitHub\\Antra-daily-assignment\\API\\cache\\cache\\appsettings.json",
+              "RelativeToolTip": "cache\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T20:30:03.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
